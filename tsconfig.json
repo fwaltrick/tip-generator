@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    /* ----- Configurações Essenciais ----- */
+    "target": "ES2022", // Compila para uma versão moderna do JavaScript
+    "module": "commonjs", // Padrão do Node.js para módulos
+    "outDir": "./dist", // Onde salvar os arquivos JavaScript compilados
+    "rootDir": "./src", // Onde estão seus arquivos TypeScript
+    "strict": true, // Ativa todas as regras de tipo estritas (altamente recomendado)
+    "esModuleInterop": true, // Melhora a compatibilidade entre diferentes tipos de módulos
+
+    /* ----- Configurações para os Desafios Opcionais ----- */
+    "experimentalDecorators": true, // Habilita o uso de decoradores
+    "emitDecoratorMetadata": true // Permite que metadados de tipo sejam emitidos para decoradores
+  },
+  "include": ["src/**/*"] // Diz ao compilador para incluir apenas os arquivos dentro da pasta 'src'
+}
